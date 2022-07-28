@@ -1,3 +1,36 @@
+/* Main CSS */
+.course-section {
+    padding: 20px 0;
+}
+
+.course-name p {
+    margin-bottom: 8px !important;
+}
+
+.register-section {
+    padding: 70px 70px !important;
+}
+
+.question-section {
+    margin-bottom: 100px !important;
+}
+
+.company-section {
+    margin-bottom: 100px !important;
+}
+
+.footer-text-area p {
+    font-size: 13px !important;
+    margin-bottom: 8px !important;
+}
+
+.footer-text-area a {
+    font-size: 13px !important;
+    margin-bottom: 8px !important;
+    text-decoration: none;
+}
+
+
 /* Slider */
 
 .carousel-item::before {
@@ -10,38 +43,131 @@
     right: 0;
     background: #000;
     opacity: 0.5;
+    border-radius: 5px;
 }
 
 .carousel-caption {
-    bottom: 200px;
+    bottom: 170px;
     padding-left: 100px;
     padding-right: 100px;
 }
 
 /* Mobile Devices */
 @media screen and (max-width: 576px) {
+
     .carousel-caption {
-        bottom: 10px;
+        width: 350px !important;
+        bottom: 20px;
         padding-left: 100px;
         padding-right: 100px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 15px !important;
+    }
+
+    .carousel-caption p {
+        font-size: 10px !important;
+    }
+
+    .carousel-caption button {
+        padding: 8px 13px !important;
+        font-size: 10px !important;
+    }
+
+    .course-heading-area {
+        width: 75% !important;
+    }
+
+    .register-section {
+        text-align: center !important;
+    }
+
+    .question-heading-area {
+        width: 75% !important;
+    }
+
+    .accordion {
+        width: 100% !important;
     }
 }
 
 /* Smaller Devices */
 @media screen and (min-width: 577px) and (max-width: 768px) {
+
     .carousel-caption {
-        bottom: 10px;
+        bottom: 30px;
         padding-left: 100px;
         padding-right: 100px;
     }
-}
 
+
+    .carousel-caption h5 {
+        font-size: 15px !important;
+    }
+
+    .carousel-caption p {
+        font-size: 10px !important;
+    }
+
+    .carousel-caption button {
+        padding: 8px 13px !important;
+        font-size: 10px !important;
+    }
+
+    .course-heading-area {
+        width: 75% !important;
+    }
+
+    .register-section {
+        text-align: center !important;
+    }
+
+    .question-heading-area {
+        width: 75% !important;
+    }
+
+    .accordion {
+        width: 100% !important;
+    }
+
+}
 
 /* Tablets Devices */
 @media screen and (min-width: 769px) and (max-width: 992px) {
+
     .carousel-caption {
-        bottom: 70px;
+        bottom: 50px;
         padding-left: 100px;
         padding-right: 100px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 25px !important;
+    }
+
+    .carousel-caption p {
+        font-size: 16px !important;
+    }
+
+    .carousel-caption button {
+        padding: 10px 15px !important;
+        font-size: 15px !important;
+    }
+
+    .course-heading-area {
+        width: 75% !important;
+    }
+
+    .register-section {
+        text-align: center !important;
+    }
+
+    .question-heading-area {
+        width: 75% !important;
+    }
+
+    .accordion {
+        width: 100% !important;
     }
 }
