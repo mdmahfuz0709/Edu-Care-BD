@@ -1,0 +1,47 @@
+/* Slider */
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.5;
+}
+
+.carousel-caption {
+    bottom: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+    .carousel-caption {
+        bottom: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+/* Smaller Devices */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .carousel-caption {
+        bottom: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+
+/* Tablets Devices */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .carousel-caption {
+        bottom: 70px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
