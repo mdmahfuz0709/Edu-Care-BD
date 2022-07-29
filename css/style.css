@@ -56,19 +56,22 @@
 @media screen and (max-width: 576px) {
 
     .carousel-caption {
-        bottom: 20px;
-        padding-left: 0;
-        padding-right: 0;
+        width: initial !important;
+        bottom: 20% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 
     .carousel-caption h5 {
         font-size: 12px !important;
         margin-bottom: 0 !important;
+        padding-bottom: 5px !important;
     }
 
     .carousel-caption p {
         font-size: 8px !important;
         margin-bottom: 0 !important;
+        padding-bottom: 5px !important;
     }
 
     .carousel-caption button {
